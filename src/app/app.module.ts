@@ -3,12 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FrontpageComponent } from './frontpage/frontpage.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FrontpageComponent
   ],
   imports: [
     BrowserModule,

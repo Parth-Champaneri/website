@@ -1,19 +1,67 @@
-#title {
-    background-color: white;
+#grad {
+    background-image: linear-gradient(red, yellow);
 }
 
-.card {
-    border: 0px;
+#front{
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+    height:auto;
+
+
+}
+#prof-img{
+    width: 50%;
+    display:block; 
+    border-radius: 100%;
+    background-color: black; 
+    margin-left: auto; 
+    margin-right: auto;
+    min-width:350px;
+    max-width: 400px;
+}
+
+.card{
+    border-style: none;
+    border-radius: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#section-body{
+    color: #ffffff;
+    text-align: center;
+    margin-right:auto;
+    margin-left: auto;
+
+    padding:10px;
+
+    min-width: 300px;
+    max-width: 500px;
+
+}
+
+#title{
+    font-size: 325%;
+    font-family: avenir;
+
+}
+
+
+.section{
+    margin-left:auto;
+    margin-right: auto;
+
+    height: auto;
+
+    width: 80%;
+    max-width: 750px;
     
-    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
 
-}
-
-.card2 {
-    background-color: white;
-}
-
-.subtitle{
-    font-size: 30px;
+    background-color: #006ac3;
 
 }
